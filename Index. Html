@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NightRogue: Crime City</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🔥 Banner Image -->
+  <img id="banner" src="assets/banner.jpg" alt="Night Rogue" />
+
+  <!-- Title -->
+  <h1 id="title">🚗 NightRogue: Crime City</h1>
+
+  <!-- Game Canvas -->
+  <canvas id="game"></canvas>
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
